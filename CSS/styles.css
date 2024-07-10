@@ -1,0 +1,122 @@
+[class*="col-"]{
+    width: 100%;
+}
+@media only screen and (min-width: 768px){
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+#subtitle{font-size: 30px;}
+}
+/* Fonts */
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Header en Title */
+header {
+    font-family: "Anton", sans-serif;
+    height: 200px;
+    background-color: cornflowerblue;
+    background-image: url("../IMG/Kampen_Logo.JPG");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 220px;
+    border-radius: 5%;
+}@media only screen and (min-width: 768px){
+    header{background-image: url("../IMG/Kampen_Logo_Stretched.jpg"); background-size: 75% 220px;}
+}
+
+#headercontainer{
+    width: 100%;
+    display: flex;
+}
+#headerdiv1{
+    display: flex;
+    max-height: 240px;
+    width: 20%;
+}
+#headerdiv2{
+    margin-left: 20%;
+    margin-top: 100px;
+    display: flex;
+    max-height: 240px;
+    width: 40%;
+}
+#title {
+    color: rgb(80, 170, 255);
+    margin-left: 25px;
+    font-size: xx-large;
+    }
+#subtitle {
+    color: rgb(224, 220, 255);
+    margin-left: 25px;
+}
+
+/* Main */
+/*linkerkolom*/
+#linkerkolom{
+    background-color: cornflowerblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    border-radius: 1%;
+}
+.feit{
+    color:rgb(224, 220, 255);
+}
+li.feit{
+    list-style:square;
+    padding: 2px;
+}
+li.uitleg{
+    list-style:none;
+    margin: 5px;
+}
+
+/*rechterkolom*/
+#rechterkolom{
+    background-color: rgb(209, 209, 253);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    border-radius: 1%;
+}
+.attractie{
+    margin: 5px;
+    padding: 10px
+}
+.plaatje{
+    float: right;
+    height: 190px;
+    width: 190px;
+}
+/*Footer*/
+footer{
+    font-family: "Anton", sans-serif;
+    height: 50px;
+}
+#footercontainer{
+    width: 100%;
+    display: flex;
+    background-color: cornflowerblue;
+    border-radius: 5%;
+}
+.copyright{
+    text-align: center;
+}
